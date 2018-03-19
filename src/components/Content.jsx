@@ -5,8 +5,13 @@ import PropTypes from 'prop-types';
 
 
 function Content(props) {
+    var styles = {
+        display: "grid",
+        gridTemplateColumns: "1fr",
+        margin: "3em"
+    }
     return (
-        <div>
+        <div style={styles}>
             <Week schedule={props.schedule}/>
             <FoodSchedule produce={props.produce}/>
         </div>

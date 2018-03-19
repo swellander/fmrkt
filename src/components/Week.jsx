@@ -1,13 +1,18 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Day from '.components/Day';
+import Day from './Day';
 
 function Week(props) {
+    var styles = {
+        display: "grid",
+        gridTemplateColumns: "repeat(6, 1fr)",
+        gridColumnGap: "1em"
+    }
     return (
-        <div>
+        <div style={styles}>
             {props.schedule.map((day, index) =>
                 <Day 
-                    name={day.name}
+                    name={day.day}
                     location={day.location}
                     hours={day.hours}
                     booth={day.booth}
