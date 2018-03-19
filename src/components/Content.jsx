@@ -6,10 +6,10 @@ import PropTypes from 'prop-types';
 
 function Content(props) {
     var styles = {
-        display: "grid",
-        gridTemplateColumns: "1fr",
-        margin: "3em"
-    }
+        display: 'grid',
+        gridTemplateColumns: '1fr',
+        margin: '3em'
+    };
     return (
         <div style={styles}>
             <Week schedule={props.schedule}/>

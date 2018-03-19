@@ -4,14 +4,14 @@ import Month from './Month';
 
 function FoodSchedule(props) {
     var styles = {
-        display: "grid",
-        gridTemplateColumns: "1fr 1fr 1fr",
-        gridColumnGap: "2em",
-        gridRowGap: "2em"
-    }
+        display: 'grid',
+        gridTemplateColumns: '1fr 1fr 1fr',
+        gridColumnGap: '2em',
+        gridRowGap: '2em'
+    };
     var containerStyles = {
-        marginTop: "4em"
-    }
+        marginTop: '4em'
+    };
     return (
         <div style={containerStyles}>
             

@@ -4,10 +4,10 @@ import Day from './Day';
 
 function Week(props) {
     var styles = {
-        display: "grid",
-        gridTemplateColumns: "repeat(6, 1fr)",
-        gridColumnGap: "1em"
-    }
+        display: 'grid',
+        gridTemplateColumns: 'repeat(6, 1fr)',
+        gridColumnGap: '1em'
+    };
     return (
         <div style={styles}>
             {props.schedule.map((day, index) =>

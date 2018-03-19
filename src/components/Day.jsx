@@ -4,11 +4,11 @@ import PropTypes from 'prop-types';
 function Day(props) {
     var styles = {
         display: 'inline-block',
-        borderRadius: "4px",
-        justifySelf: "center",
-        padding: "1em",
-        backgroundColor: "#EBF5DF",
-        width: "100%"
+        borderRadius: '4px',
+        justifySelf: 'center',
+        padding: '1em',
+        backgroundColor: '#EBF5DF',
+        width: '100%'
     };
 
     return (
@@ -24,7 +24,7 @@ function Day(props) {
 }
 
 Day.propTypes = {
-    day: PropTypes.string,
+    name: PropTypes.string,
     location: PropTypes.string,
     hours: PropTypes.string,
     booth: PropTypes.string
